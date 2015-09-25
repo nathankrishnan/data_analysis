@@ -11,7 +11,7 @@ def open_csv(filename, default='\t'):
 	return data
 
 data_from_csv = open_csv('data.csv')
-print(data_from_csv[0])
+#print(data_from_csv[0])
 
 FIELDNAMES = ['', 'id', 'priceLabel', 'name', 'brandId', 'brandName', 'imageLink', 'desc', 'vendor', 'pattern', 'material']
 

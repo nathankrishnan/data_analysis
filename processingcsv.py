@@ -12,6 +12,7 @@ def open_csv(filename, default='\t'):
 
 data_from_csv = open_csv('data.csv')
 #print(data_from_csv[0])
+#print(data_from_csv)
 
 FIELDNAMES = ['', 'id', 'priceLabel', 'name', 'brandId', 'brandName', 'imageLink', 'desc', 'vendor', 'pattern', 'material']
 
@@ -37,3 +38,5 @@ def load_data(filename, default='\t'):
 	return my_csv
 
 my_csv = load_data('data.csv')
+#print(my_csv)
+

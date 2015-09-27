@@ -25,4 +25,3 @@ print(find_min(data_from_csv[1:], 2))
 price = my_csv['priceLabel']
 prices_in_float = [float(x) for x in price]
 numpy_max = numpy.amax(prices_in_float)
-print(Numpy Max: numpy_max)

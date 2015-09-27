@@ -14,6 +14,6 @@ print("Average =", average_price)
 print('Average = {:03.2f}'.format(average_price))
 
 midpoint = round(number_of_ties / 2)
-message = "Average of {} half = {:03.2f}"
+message = "Average of {} half = ${:03.2f}"
 print(message.format("1st", find_average(data_from_csv[:midpoint])))
 print(message.format("2nd", find_average(data_from_csv[midpoint:], False)))

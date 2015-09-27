@@ -1,9 +1,9 @@
 from cleaningdata import *
 
-def filter_col_by_string(data_sample, filed, filter_condition):
+def filter_col_by_string(data_sample, colname, filter_condition):
 	filtered_rows = []
 
-	col = int(data_sample[0].index(filed))
+	col = int(data_sample[0].index(colname))
 	filtered_rows.append(data_sample[0])
 
 	for item in data_sample[1:]:
